@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BUPT_daonan_viewport</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+	<script src="https://cdn.jsdelivr.cn/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+	<script src="./js/bootstrap.min.js" ></script>
+	<script src="https://kit.fontawesome.com/29dc8a1ec7.js" crossorigin="anonymous"></script>
+	
+	
+    <style>
+		#title{
+			font-size: 50px;
+			font-weight: bolder;
+			color:steelblue;
+			margin-bottom:10px;
+			margin-right:20px;
+			margin-top:5px;
+			text-shadow: #122b40 1px 1px 1px;
+			text-align: center;
+		}
+		#title2{
+			margin-top:15px;
+		}
+
+			
+		#icon_1{
+			font-size:18px;
+			margin-right:20px;
+		}
+		#icon_2{
+			font-size:20px;
+			text-align: left;
+		}
+		
+		#reme{
+			text-align: left;
+		}
+		
+		samp{
+			background-image:url('./img/we.jpg');
+			background-repeat: no-repeat;
+			position:fixed;
+			width:100%; 
+			height:100%;
+			background-position: center 0;
+		}
+
+        #post{
+        	position: absolute;
+            left:50%;
+            top:55%;
+            transform: translate(-50%, -50%);
+        }
+		
+		#post_2{
+			position: absolute;
+		    left:50%;
+		    top:40;
+		    transform: translate(-50%, -50%);
+		}
+	</style>
+  </head>
+  
+  
+	<body>
+		<samp>
+		            <div class="text-center" id ="title2">
+		                <form class=" border border-muted">
+		                    <div class="bg-light" style="width:100%;">
+		                      <div class="title">
+		                        <span class="glyphicon glyphicon-send" id="title" >与你邮约</span><!--导航图标-->
+						
+		                      </div>
+							  <br/>
+		                      
+		                    </div>
+						</form>
+					</div>	
+					<div id="post">
+						<div>
+							<div class="input-group input-group-lg">
+							  <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-user-circle" id="icon_2"></i></span>
+							  <input type="text" class="form-control" placeholder="请输入用户名" aria-describedby="sizing-addon1">
+							</div>
+							
+							<div class="input-group input-group-lg">
+							  <span class="input-group-addon" id="sizing-addon1"><i class="fas fa-key" id ="icon_2"></i></span>
+							  <input type="password" class="form-control" placeholder="请输入密码" aria-describedby="sizing-addon1">
+							</div>
+							
+							
+							<div class="text-right" id="icon_1">
+							    <i class="fa-brands fa-qq"></i>
+							    <i class="fa-brands fa-weixin"></i>
+							    <i class="fa-brands fa-apple"></i>
+							</div>
+							
+		                    <div class="form-group" id ="reme">
+		                      <div class="form-check">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+		                        <label class="form-check-label" for="dropdownCheck" >
+		                          记住我
+		                        </label>
+		                      </div>
+		                    </div>
+							
+							<div id ="post_2">
+							<a href="index.html">
+		                    <button type="submit" class="btn btn-primary btn-lg ">&nbsp;&nbsp;登 录 &nbsp;</button>
+							</a>
+							</div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		                    <div class="bg-light mt-2 text-center">
+		                      <p>第一次使用？<span class="text-primary" ><a href="register.html">点我注册</a></span><br/></p>
+		                      <a class="dropdown-item text-primary" href="findback.html">忘记密码？</a>
+		                    </div>
+		            </div>
+			</samp>
+	</body>
+</html>
